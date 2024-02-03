@@ -3,7 +3,9 @@ using System;
 class Program {
   public static void Main (string[] args) {
     string firstName = "Marco";
-    Console.WriteLine ("Hello World " + firstName);
-    Console.WriteLine ($"Hello World {firstName}");
+    string lastName = "Manaig";
+    int age = 22;
+    Console.WriteLine ("Hello World " + firstName + " " + lastName);
+    Console.WriteLine ($"Hello World {firstName} {lastName}");
   }
 }
